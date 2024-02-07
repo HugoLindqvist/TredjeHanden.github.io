@@ -1,0 +1,175 @@
+body
+{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+.rubrik
+{
+    text-align: center; 
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    margin-bottom: 30px;
+}
+
+
+.säljer
+{
+    width: 35vw;
+    text-align: center; 
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.bild-ex
+{
+    text-align: center; 
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 100px;
+}
+
+
+
+footer
+{
+    background-color:#808080;
+    background: linear-gradient(lightgray, #000);
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+    height: 100px;
+}
+
+
+.medier
+{
+    text-align: center; 
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.qr-code
+{
+    display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+}
+
+
+.länk
+{
+    text-align: center; 
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto; 
+}
+
+
+.om-oss
+{
+    margin-bottom :80px;
+}
+
+
+.intro 
+{
+    width: 30vw;
+    text-align: center; 
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.vad
+{
+    width: 45vw;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.Hur
+{
+    text-align: center;
+    justify-content: center;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.inköp
+{
+    text-align: center;
+    justify-content: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    
+}
+
+
+.eftersom
+{
+    width: 50vw;
+    text-align: center;
+    justify-content: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+.samvete
+{
+    width: 50vw;
+    text-align: center;
+    justify-content: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 90px;
+}
+
+
+.namnet
+{
+    text-align: center;
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+}
+
+
+.namn-förklarning
+{
+    width:50vw;
+    text-align: center;
+    justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100spx;
+}
+
+
+.Tredje-Handen
+{
+    text-align: center;
+}
