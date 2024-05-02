@@ -11,14 +11,14 @@ header
 }
 
 
-.head
+.head      /*div samling*/ 
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;     /*antal kolumner*/
 }
 
 
-.logo img
+.logo img   /*loggans storlek & possition*/
 { 
     width: 70px; 
     height: 70px;
@@ -27,7 +27,7 @@ header
 }
 
 
-.title
+.title  /*rubrik storlek, possition, style */
 {
     font-size: 300%;
     margin-top: 60px;
@@ -45,9 +45,101 @@ body
     padding: 0%;
 }
 
-.om-mig
+
+::-webkit-scrollbar     /*fix för utseende på scroll*/
 {
-    border-radius: 3px solid black;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{background-color: black;}
+
+.info   /*div samling*/
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+
+.om-mig     /*text ruta stor*/
+{
+    border: 3px solid black;     /*storlek & form*/
+    border-radius: 20px;
+    width: 300px;
+    height: 375px;
+
+    background-color: white;    /*färg*/
+
+    margin-left: auto;      /*position*/
+    margin-right: auto;
+    margin-top: 15px;
+
+    overflow-y: auto;     /*lägger till scroll funktion i rutan*/
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+
+.mitten     /*div samling*/
+{
+    .games      /*text ruta liten_1*/
+    {
+        border: 3px solid black;     /*storlek & form*/
+        border-radius: 20px;
+        width: 280px;
+        height: 180px;
+
+        background-color: white;    /*färg*/
+
+        margin-left: auto;      /*position*/
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        overflow-y: hidden;     /*lägger till scroll funktion i rutan*/
+        box-sizing: border-box;
+        word-wrap: break-word;  
+        padding: 20px;
+    }
+
+    .scroll     /*fixar (typ) position och utseende för scroll bar*/
+    {
+        height: 140px;  
+        overflow-y: auto;
+        word-wrap: break-word;
+        box-sizing: border-box;
+    }
+
+
+    .music      /*text ruta liten_2*/
+    {
+        border: 3px solid black;     /*storlek & form & färg & plats*/
+        border-radius: 20px;
+        width: 280px;
+        height: 180px;
+
+        background-color: white;    /*färg*/
+
+        margin-left: auto;      /*position*/
+        margin-right: auto;
+
+        overflow-y: auto;     /*lägger till scroll funktion i rutan*/
+        box-sizing: border-box;
+        word-wrap: break-word;
+        padding: 20px;
+    }
+}
+
+
+.varberg        /*bild ruta*/
+{
+    border: 3px solid black;    /*storlek & form*/
+    width: 300px;
+    height: 300px;
+
+    background-color: white;    /*färg*/   
+
+    margin-left: auto;      /*position*/
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
