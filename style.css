@@ -79,55 +79,44 @@ body
 }
 
 
-.mitten     /*div samling*/
+.om-mig-inner
 {
-    .games      /*text ruta liten_1*/
-    {
-        border: 3px solid black;     /*storlek & form*/
-        border-radius: 20px;
-        width: 280px;
-        height: 180px;
-
-        background-color: white;    /*färg*/
-
-        margin-left: auto;      /*position*/
-        margin-right: auto;
-        margin-top: 15px;
-        margin-bottom: 15px;
-
-        overflow-y: hidden;     /*lägger till scroll funktion i rutan*/
-        box-sizing: border-box;
-        word-wrap: break-word;  
-        padding: 20px;
-    }
-
-    .scroll     /*fixar (typ) position och utseende för scroll bar*/
-    {
-        height: 140px;  
-        overflow-y: auto;
-        word-wrap: break-word;
-        box-sizing: border-box;
-    }
-
-
-    .music      /*text ruta liten_2*/
-    {
-        border: 3px solid black;     /*storlek & form & färg & plats*/
-        border-radius: 20px;
-        width: 280px;
-        height: 180px;
-
-        background-color: white;    /*färg*/
-
-        margin-left: auto;      /*position*/
-        margin-right: auto;
-
-        overflow-y: auto;     /*lägger till scroll funktion i rutan*/
-        box-sizing: border-box;
-        word-wrap: break-word;
-        padding: 20px;
-    }
+   height: 330px; 
 }
+
+    
+
+.interests     /*text ruta liten_1*/
+{
+    border: 3px solid black;     /*storlek & form*/
+    border-radius: 20px;
+    width: 280px;
+    height: 180px;
+
+    background-color: white;    /*färg*/
+
+    margin-left: auto;      /*position*/
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    overflow-y: hidden;     /*lägger till scroll funktion i rutan*/
+    box-sizing: border-box;
+    word-wrap: break-word;  
+    padding: 20px;
+}
+
+.scroll     /*fixar (typ) position och utseende för scroll bar*/
+{
+    overflow-y: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.interests-inner {      /*hight scroll*/
+    height: 140px;
+}
+
 
 
 .varberg        /*bild ruta*/
@@ -142,4 +131,11 @@ body
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.varberg-bild
+{
+    width: 300px; 
+    height: 300px;  
+    object-fit: cover;
 }
